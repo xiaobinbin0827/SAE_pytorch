@@ -1,6 +1,6 @@
 # SAE_pytorch
 ## 基于pytorch实现的堆叠自编码神经网络，包含网络模型构造、训练、测试
-主要包含训练与测试数据（.mat文件）、模型（AE_ModelConstruction.py、AE_Train.py）以及`测试例子`（AE_Test.py）<br>
+主要包含训练与测试数据（`.mat文件`）、模型（`AE_ModelConstruction.py`、`AE_Train.py`）以及测试例子（`AE_Test.py`）<br>
 其中`ae_D_temp`为训练数据，`ae_Kobs3_temp`为正常测试数据，`ae_ver_temp`为磨煤机堵煤故障数据，数据集包含风粉混合物温度等14个变量<br>
 ### `AE_ModelConstruction.py`文件：
 ```
